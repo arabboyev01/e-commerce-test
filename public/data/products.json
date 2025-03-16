@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 13 Pro",
+      "price": 999,
+      "brand": "Apple",
+      "description": "The latest iPhone with A15 Bionic chip, Pro camera system, and Super Retina XDR display with ProMotion.",
+      "isNew": true,
+      "image": "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": 2,
+      "title": "Samsung Galaxy S21",
+      "price": 799,
+      "brand": "Samsung",
+      "description": "Featuring a dynamic AMOLED display, pro-grade camera, and all-day battery life.",
+      "isNew": false,
+      "image": "https://images.pexels.com/photos/3270223/pexels-photo-3270223.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": 3,
+      "title": "MacBook Pro 16\"",
+      "price": 2399,
+      "brand": "Apple",
+      "description": "Powered by M1 Pro or M1 Max chip for groundbreaking performance and amazing battery life.",
+      "isNew": true,
+      "image": "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": 4,
+      "title": "Dell XPS 13",
+      "price": 999,
+      "brand": "Dell",
+      "description": "Compact and powerful laptop with InfinityEdge display and 11th Gen Intel processors.",
+      "isNew": false,
+      "image": "https://images.pexels.com/photos/3612182/pexels-photo-3612182.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": 5,
+      "title": "iPad Air",
+      "price": 599,
+      "brand": "Apple",
+      "description": "Thin, light, and powerful with A14 Bionic chip and 10.9-inch Liquid Retina display.",
+      "isNew": true,
+      "image": "https://images.pexels.com/photos/2693646/pexels-photo-2693646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": 6,
+      "title": "Google Pixel 6",
+      "price": 699,
+      "brand": "Google",
+      "description": "The first phone with Google Tensor, with an amazing camera and Adaptive Battery.",
+      "isNew": true,
+      "image": "https://images.pexels.com/photos/2622187/pexels-photo-2622187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": 7,
+      "title": "Surface Laptop 4",
+      "price": 999,
+      "brand": "Microsoft",
+      "description": "Style and speed with ultra-thin design and choice of Intel or AMD processors.",
+      "isNew": false,
+      "image": "https://images.pexels.com/photos/3373736/pexels-photo-3373736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": 8,
+      "title": "OnePlus 9 Pro",
+      "price": 899,
+      "brand": "OnePlus",
+      "description": "Flagship smartphone with Hasselblad camera, Fluid Display 2.0, and 65W fast charging.",
+      "isNew": false,
+      "image": "https://images.pexels.com/photos/3621234/pexels-photo-3621234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    }
+  ]
+}
