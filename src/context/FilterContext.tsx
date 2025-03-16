@@ -2,7 +2,7 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 import { Product } from '../types/product';
 
-type SortOption = 'name-asc' | 'name-desc' | 'price-asc' | 'price-desc';
+export type SortOption = 'name-asc' | 'name-desc' | 'price-asc' | 'price-desc';
 
 interface FilterState {
     priceRange: {

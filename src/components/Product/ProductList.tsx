@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Box, FormControl, InputLabel, Select, MenuItem, SelectChangeEvent, Typography } from '@mui/material';
 import ProductCard from './ProductCard';
 import { Product } from '../../types/product';
-import { useFilter } from '../../context/FilterContext';
+import {SortOption, useFilter} from '../../context/FilterContext';
 import styles from '@/src/components/styles/ProductList.module.scss';
 
 interface ProductListProps {
@@ -15,7 +15,7 @@ const ProductList: React.FC<ProductListProps> = ({ products }) => {
     const filteredProducts = filterProducts(products);
 
     const handleSortChange = (event: SelectChangeEvent) => {
-        setSortOption(event.target.value as any);
+        setSortOption(event.target.value as SortOption);
     };
 
     return (
